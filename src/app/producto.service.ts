@@ -12,7 +12,7 @@ import { MessageService } from './message.service';
 })
 export class ProductoService {
 
-  private productoUrl = 'http://localhost:8080/Products';
+  private productoUrl = 'https://inventarioback.onrender.com/Products';
 
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
