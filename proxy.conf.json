@@ -1,6 +1,6 @@
 {
     "/api": {
-      "target": "https://inventarioback.onrender.com/",
+      "target": "https://inventario-front-lymzjrelc-nlopezr6s-projects.vercel.app",
       "secure": false,
       "changeOrigin": true
     }
