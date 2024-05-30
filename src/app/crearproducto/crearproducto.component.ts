@@ -44,7 +44,7 @@ export class CrearproductoComponent implements OnInit {
   precioUniControl = new FormControl('', [
     Validators.required,
     Validators.pattern('^[0-9]+$'),
-    Validators.min(200000),
+    Validators.min(20000),
     Validators.max(30000000)
   ]);
 
